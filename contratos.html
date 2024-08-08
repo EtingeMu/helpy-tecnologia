@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contratos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="search-box">
+            <input class="search-txt" id="searchbar" type="text" name="searchbar" placeholder="pesquisar" onkeyup="search()">
+            <a class="search-bnt" href="#">
+                <i class="fas fa-search"><i>
+            </a>
+        </div>
+        <div class="hero">
+            <nav>
+        
+                <img src="images/user.png" class="user-pic" onclick="toggleMenu()">
+        
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images/user.png">
+                            <h2>Klein Moretti</h2>
+                        </div>
+                        <hr>
+        <div>
+                        <a href="perfil.html" class="sub-menu-link">
+                            <img src="images/profile.png">
+                            <p>Edit profile</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                        <img src="images/setting.png">
+                        <p>Setting & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                    <img src="images/help.png">
+                            <p>Help & Support</p>
+                            <span>></span>
+                        </a>
+                        <a href="logout.html" class="sub-menu-link">
+                        <img src="images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+              <li><a href="principal.html">home</a></li>
+              <li><a href="adicionar.html">adicionar</a></li>
+              <li><a href="contratos.html">contratos</a></li>
+            </ul>
+          </nav>
+          <hr>
+    </header>
+
+<main>
+    <div class="info-box">
+        <h2>Marketing</h2>
+        <p id="info-text">Suporte de Marketing</p>
+        <button id="show-more-btn"><a href="marketing.html">Show More</a></button>
+      </div>
+
+      <div class="info-box">
+        <h2>Logistica</h2>
+        <p id="info-text">Suporte Logistico</p>
+        <button id="show-more-btn"><a href="logistica.html">Show More</a></button>
+      </div>
+</main>
+
+
+<main>
+    <div class="info-box">
+        <h2>Judicial</h2>
+        <p id="info-text">Suporte Judicial</p>
+        <button id="show-more-btn"><a href="juridico.html">Show More</a></button>
+      </div>
+
+      <div class="info-box">
+        <h2>RH</h2>
+        <p id="info-text">Suporte em RH</p>
+        <button id="show-more-btn"><a href="rh.html">Show More</a></button>
+      </div>
+</main>
+
+<main>
+    <div class="info-box">
+        <h2>Financeiro</h2>
+        <p id="info-text">Suporte no Financeiro</p>
+        <button id="show-more-btn"><a href="financeiro.html">Show More</a></button>
+      </div>
+
+      <div class="info-box">
+        <h2>T.I</h2>
+        <p id="info-text">Suporte T.i</p>
+        <button id="show-more-btn"><a href="ti.html">Show More</a></button>
+      </div>
+</main>
+
+<footer>
+    <nav id="nav-bar">
+        <ul>
+          <li><a href="#">contatos:</a></li>
+          <li><a href="#">jajsa@gmail.com</a></li>
+          <li><a href="#">9002-8922</a></li>
+        </ul>
+      </nav>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+    <div class="hero">
+        <nav>
+    
+            <img src="images/user.png" class="user-pic" onclick="toggleMenu()">
+    
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images/user.png">
+                        <h2>Klein Moretti</h2>
+                    </div>
+                    <hr>
+    <div>
+                    <a href="perfil.html" class="sub-menu-link">
+                        <img src="images/profile.png">
+                        <p>Edit profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                    <img src="images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                <img src="images/help.png">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="logout.html" class="sub-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <nav id="nav-bar">
+        <ul>
+          <li><a href="principal.html">home</a></li>
+          <li><a href="adicionar.html">adicionar</a></li>
+          <li><a href="contratos.html">contratos</a></li>
+        </ul>
+      </nav>
+      <hr>
+</header>
+
+
+<div class="container">
+    <div class="profile-header">
+        <img src="images/user.png" alt="Profile Picture" class="profile-picture">
+        <h2 class="username">Klein Moretti</h2>
+        <p class="bio">Software Engineer | Coffee Lover | Travel Enthusiast</p>
+    </div>
+    <div class="profile-info">
+        <h3>Contact Information</h3>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:klein@gmail.com">klein@gmail.com</a></li>
+            <li><strong>Phone:</strong> (11) 984625-0915</li>
+            <li><strong>Location:</strong> São Paulo - SP</li>
+        </ul>
+    </div>
+    <div class="profile-skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>                      
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </div>
+    <div class="profile-experience">
+        <h3>Experience</h3>
+        <ul>
+            <li>
+                <strong>Software Engineer</strong>
+                <span>ABC Company (2018-Present)</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </li>
+            <li>
+                <strong>Junior Developer</strong>
+                <span> DEF Company (2015-2018)</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            </li>
+        </ul>
+    </div>
+    <div class="profile-education">
+        <h3>Education</h3>
+        <ul>
+            <li>
+                <strong>Bachelor of Science in Computer Science</strong>
+                <span>XYZ University (2010-2014)</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <nav id="nav-bar">
+        <ul>
+          <li><a href="#">contatos:</a></li>
+          <li><a href="#">jajsa@gmail.com</a></li>
+          <li><a href="#">9002-8922</a></li>
+        </ul>
+      </nav>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>

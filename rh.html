@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="search-box">
+            <input class="search-txt" id="searchbar" type="text" name="searchbar" placeholder="pesquisar" onkeyup="search()">
+            <a class="search-bnt" href="#">
+                <i class="fas fa-search"><i>
+            </a>
+        </div>
+        <div class="hero">
+            <nav>
+        
+                <img src="images/user.png" class="user-pic" onclick="toggleMenu()">
+        
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images/user.png">
+                            <h2>Klein Moretti</h2>
+                        </div>
+                        <hr>
+        <div>
+                        <a href="perfil.html" class="sub-menu-link">
+                            <img src="images/profile.png">
+                            <p>Edit profile</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                        <img src="images/setting.png">
+                        <p>Setting & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                    <img src="images/help.png">
+                            <p>Help & Support</p>
+                            <span>></span>
+                        </a>
+                        <a href="logout.html" class="sub-menu-link">
+                        <img src="images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+              <li><a href="principal.html">home</a></li>
+              <li><a href="adicionar.html">adicionar</a></li>
+              <li><a href="contratos.html">voltar</a></li>
+            </ul>
+          </nav>
+          <hr>
+    </header>
+
+    <main>
+        <section class="about-content">
+          <h2>RH</h2>
+          <p>Esses serviços podem ser personalizados para atender às necessidades específicas de cada empresa, garantindo eficiência e conformidade em todas as áreas.</p>
+        </section>
+        <section class="about-team">
+            <h3>serviços</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis in consectetur laborum ipsam alias dolor ea molestias commodi placeat autem! Corporis dolor culpa molestiae libero fugit dignissimos quae maxime blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum iusto ut nam nobis corporis qui debitis excepturi perferendis, culpa error possimus minus aut deleniti iure quibusdam dolorum cumque voluptate dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quae recusandae provident illum debitis dignissimos et inventore magnam molestias rerum adipisci beatae dicta ea cumque, quibusdam labore accusamus amet quo.</p>
+          <h4>adiquirir</h4>
+        </section>
+      </main>
+
+      <footer>
+        <nav id="nav-bar">
+            <ul>
+              <li><a href="#">contatos:</a></li>
+              <li><a href="#">jajsa@gmail.com</a></li>
+              <li><a href="#">9002-8922</a></li>
+            </ul>
+          </nav>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
